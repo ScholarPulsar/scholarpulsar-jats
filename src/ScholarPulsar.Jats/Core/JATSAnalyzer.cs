@@ -77,6 +77,11 @@ namespace ScholarPulsar.Jats.Core
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="xml"></param>
+        /// <returns></returns>
         public PubMedEntities.PubmedArticleSet GetPubMedArticle(string xml)
         {
             PubMedEntities.PubmedArticleSet article = null;
