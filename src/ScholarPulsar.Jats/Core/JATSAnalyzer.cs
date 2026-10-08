@@ -39,6 +39,12 @@ namespace ScholarPulsar.Jats.Core
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="xml"></param>
+        /// <returns></returns>
         public T GetEntity<T>(string xml)
         {
             T obj = default(T);
