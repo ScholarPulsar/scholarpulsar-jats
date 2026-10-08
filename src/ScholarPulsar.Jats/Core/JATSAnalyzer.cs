@@ -59,6 +59,11 @@ namespace ScholarPulsar.Jats.Core
             return obj;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="xml"></param>
+        /// <returns></returns>
         public Article GetArticle(string xml)
         {
             XmlSerializer ser = new XmlSerializer(typeof(Article));
