@@ -22,6 +22,12 @@ namespace ScholarPulsar.Jats.Core
             this.nlmDtdPath = nlmDtdPath;
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="xml"></param>
+        /// <returns></returns>
         public ArticleSet GetArtilceSet(string xml)
         {
             xml = xml.Replace("xlink:href", "href");
