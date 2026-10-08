@@ -31,6 +31,13 @@ namespace ScholarPulsar.Jats.Core
                 }
             }
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="localName"></param>
+        /// <param name="xml"></param>
+        /// <returns></returns>
         public static ParagraphElement GetElement(string localName, string xml)
         {
             ParagraphElement element = null;
